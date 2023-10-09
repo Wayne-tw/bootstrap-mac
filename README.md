@@ -8,3 +8,6 @@ Customising my terminal.
 2. zsh-autosuggestions 
 3. zsh-syntax-highlighting
 4. power 10k
+
+
+Forked from MattW

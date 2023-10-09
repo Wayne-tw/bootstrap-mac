@@ -1,0 +1,109 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "aws/tap"
+
+cask "iterm2"
+brew "zsh"
+brew "zsh-completions"
+brew "docker"
+
+# Networking
+brew "curl"
+brew "openssl@1.1"
+brew "ca-certificates"
+brew "wget"
+
+# Build
+brew "cmake"
+brew "ansible"
+brew "packer"
+
+# Git
+brew "git"
+brew "git-secrets"
+brew "pre-commit"
+
+# dotnet
+brew "dotnet"
+cask "mono-mdk"
+
+# Java
+brew "jenv"
+brew "openjdk@8"
+brew "openjdk@11"
+brew "openjdk@17"
+brew "gradle"
+brew "maven"
+
+# Node
+brew "nodenv"
+brew "node@14"
+brew "node@16"
+brew "yarn"
+brew "mockserver"
+
+# Python
+brew "python"
+brew "virtualenv"
+
+# Go
+brew "go"
+
+# Clojure
+brew "leiningen"
+brew "guile"	
+
+# Docker
+brew "docker-compose"
+brew "colima"
+brew "podman"
+brew "lima"
+
+# Terraform
+brew "tfenv"
+brew "terraform"
+brew "terraform-docs"
+	
+# Database
+brew "postgresql"
+brew "mysql"
+brew "sqlite"
+
+# Ruby
+brew "rbenv"
+brew "ruby-install"
+
+# Kubernetes
+brew "kubernetes-cli"
+brew "kubectx"
+brew "k9s"
+brew "minikube"
+brew "helm"	
+
+# Tools
+brew "jq"
+brew "yq"
+brew "shellcheck"
+brew "parallel"
+brew "graphviz"
+brew "watch"
+brew "adr-tools"
+brew "plantuml"
+
+# AWS
+brew "awscli"
+brew "awsume"	
+brew "aws-sam-cli"	
+
+# Azure
+brew "azure-cli"
+
+# Circle CI
+brew "circleci"	
+
+# Applications
+cask "slack"
+cask "zoom"
+cask "dbeaver-community"
+cask "visual-studio-code"
